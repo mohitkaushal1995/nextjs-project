@@ -13,7 +13,7 @@ function Home() {
       <div className="container">
       <main>
     <h1 className="text-body-emphasis">Get started with Bootstrap</h1>
-    <p className="fs-5 col-md-8">Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.</p>
+    <p className="fs-5 col-md-8">Quickly and easily get started with Bootstrap compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.</p>
 
     <div className="mb-5">
       <Link href="/contact" className="btn btn-primary btn-lg px-4">contact us </Link>
