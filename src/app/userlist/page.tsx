@@ -6,7 +6,7 @@
 
 // }
 
-
+import users from '../users.json'
 export default async function Userlist (){
 
 // const users = await getUsers();
@@ -15,14 +15,14 @@ export default async function Userlist (){
 return(
 <div>
 <h1>Users List</h1>
-{/* {
+{
    users&& users.map((user) =>(
     <div key={user.id}>
         {user.name}
     </div>
 
     ))
-} */}
+}
 
 
 

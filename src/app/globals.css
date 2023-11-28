@@ -106,4 +106,10 @@ a {
   }
 }
 
-@import 'bootstrap/dist/css/bootstrap.min.css'
+.nav-link {
+  margin-right: 15px; 
+}
+
+.slider {
+  margin-top: 20px;
+}

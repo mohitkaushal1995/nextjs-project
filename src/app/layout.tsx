@@ -1,6 +1,10 @@
+
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import Header from './header/page'
 import Footer from './footer/page'
 
@@ -17,6 +21,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+ 
+
+
+
+
+
+
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -26,7 +39,7 @@ export default function RootLayout({
         
         <Footer/>
         
-        
+     
         
         </body>
     </html>
