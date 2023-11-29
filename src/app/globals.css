@@ -113,3 +113,17 @@ a {
 .slider {
   margin-top: 20px;
 }
+
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+   
+    background-color: red
+
+  
+  }
+
+  .carousel-indicators [data-bs-target] {
+   
+    background-color:red
+    
+  }

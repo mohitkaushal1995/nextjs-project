@@ -1,15 +1,15 @@
 // @ts-nocheck
-// async function getUsers(){
-//    const res = await fetch("http://localhost:3000/api/users") 
-//  const  { data } = await res.json()
-//    return data
+async function getUsers(){
+   const res = await fetch(`${process.env.BASE_FETCH_URL}/api/users`) 
+ const  { data } = await res.json()
+   return data
 
-// }
+}
 
-import users from '../users.json'
+// users from '../users.json'
 export default async function Userlist (){
 
-// const users = await getUsers();
+const users = await getUsers();
 
 
 return(

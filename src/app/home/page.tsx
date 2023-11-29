@@ -11,8 +11,8 @@ import Image from "next/image";
 function Home() {
   const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
+  const handleSelect = (index) => {
+    setIndex(index);
   };
 
   return (
